@@ -132,8 +132,8 @@ echo "            #     Silahkan ketik [menu] ENTER untuk pilihan     #"| lolcat
 echo "            #---------------------------------------------------#"| lolcat
 echo "            #    Copyright: © YUSUF-ARDIANSYAH™ Premium 2017    #"| lolcat
 echo "            ====================================================="| lolcat
-date +"                          %A, %d-%m-%Y" | lolcat
-date +"                                  %H:%M:%S %Z" | lolcat
+date +"                            %A, %d-%m-%Y" | lolcat
+date +"                                 %H:%M:%S %Z" | lolcat
 echo ""
 echo -e "            Server - IP: $MYIP " | lolcat
 echo ""
