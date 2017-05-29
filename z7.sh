@@ -30,7 +30,7 @@ vps="aneka";
 #if [[ $vps = "zvur" ]]; then
 	#source="http://"
 #else
-	source="https://raw.githubusercontent.com/join-x/y"
+	source="https://raw.githubusercontent.com/yusuf-ardiansyah/y"
 #fi
 
 # go to root
@@ -360,7 +360,7 @@ chmod +x /usr/bin/bannermenu
 chmod +x /usr/bin/menu-update-script-vps.sh
 cd
 # swap ram
-dd if=/dev/zero of=/swapfile bs=1024 count=1024k
+dd if=/dev/zero of=/swapfile bs=512 count=512k
 # buat swap
 mkswap /swapfile
 # jalan swapfile
