@@ -11,7 +11,7 @@ MYIP=`ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*
 vps="aneka";
 
 
-	source="https://raw.githubusercontent.com/join-x/y"
+	source="https://raw.githubusercontent.com/yusuf-ardiansyah/y"
 
 
 # go to root
