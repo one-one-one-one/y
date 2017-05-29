@@ -14,7 +14,7 @@ if [ "$MYIP" = "" ]; then
 fi
 #MYIP=$(wget -qO- ipv4.icanhazip.com)
 
-echo "--------------------------- GANTI PASSWORD  AKUN SSH ---------------------------"
+echo "--------------------------- GANTI PASSWORD AKUN SSH ---------------------------"
 
 	echo "            DEVELOPED BY YUSUF-ARDIANSYAH atau (082139743432)            "
 echo ""
