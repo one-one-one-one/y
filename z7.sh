@@ -324,13 +324,13 @@ wget -O /usr/bin/user-renew $source/debian7/user-renew.sh
 wget -O /usr/bin/clearcache.sh $source/debian7/clearcache.sh
 wget -O /usr/bin/bannermenu $source/debian7/bannermenu
 wget -O /usr/bin/menu-update-script-vps.sh $source/debian7/menu-update-script-vps.sh
-cd
+#cd
 
 #echo "*/30 * * * * root service dropbear restart" > /etc/cron.d/dropbear
 #echo "00 23 * * * root /usr/bin/disable-user-expire" > /etc/cron.d/disable-user-expire
 #echo "0 */12 * * * root /sbin/reboot" > /etc/cron.d/reboot
 ##echo "00 01 * * * root echo 3 > /proc/sys/vm/drop_caches && swapoff -a && swapon -a" > /etc/cron.d/clearcacheram3swap
-echo "0 */1 * * * root /usr/bin/clearcache.sh" > /etc/cron.d/clearcache1
+#echo "0 */1 * * * root /usr/bin/clearcache.sh" > /etc/cron.d/clearcache1
 
 cd
 chmod +x /usr/bin/benchmark
@@ -360,7 +360,7 @@ chmod +x /usr/bin/bannermenu
 chmod +x /usr/bin/menu-update-script-vps.sh
 cd
 # swap ram
-dd if=/dev/zero of=/swapfile bs=1024 count=1024k
+dd if=/dev/zero of=/swapfile bs=2048 count=2048k
 # buat swap
 mkswap /swapfile
 # jalan swapfile
