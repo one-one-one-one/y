@@ -360,7 +360,7 @@ chmod +x /usr/bin/bannermenu
 chmod +x /usr/bin/menu-update-script-vps.sh
 cd
 # swap ram
-dd if=/dev/zero of=/swapfile bs=2048 count=2048k
+dd if=/dev/zero of=/swapfile bs=256 count=256k
 # buat swap
 mkswap /swapfile
 # jalan swapfile
