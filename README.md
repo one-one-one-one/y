@@ -3,7 +3,7 @@
 
 # z7
 ```
-wget https://raw.githubusercontent.com/join-x/y/debian7/z7.sh && chmod +x ./z7.sh && ./z7.sh
+wget https://raw.githubusercontent.com/yusuf-ardiansyah/y/debian7/z7.sh && chmod +x ./z7.sh && ./z7.sh
 ```
 # OPENVPN
 ```
