@@ -43,7 +43,7 @@ do
                 echo "$waktu - $PID - $USER - $IP"| lolcat;
         fi
 done
-python /usr/bin/vpnmon
+
 echo "-------------------------------------------------------------"| lolcat
 echo -e "==============[ User Monitor Dropbear & OpenSSH]=============" | lolcat
 PS3='Silahkan ketik nomor 1-3 lalu ENTER: '
