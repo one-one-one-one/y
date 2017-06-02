@@ -90,8 +90,6 @@ apt-get update;apt-get -y upgrade;
 # install webserver
 apt-get -y install nginx php5-fpm php5-cli
 apt-get -y install zip tar
-apt-get install python
-cd
 
 # install essential package
 echo "mrtg mrtg/conf_mods boolean true" | debconf-set-selections
