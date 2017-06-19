@@ -283,7 +283,7 @@ service squid3 restart
 
 # install webmin
 cd
-#wget -O webmin-current.deb http://prdownloads.sourceforge.net/webadmin/webmin_1.760_all.deb
+wget -O webmin-current.deb http://prdownloads.sourceforge.net/webadmin/webmin_1.760_all.deb
 wget -O webmin-current.deb $source/debian7/webmin-current.deb
 dpkg -i --force-all webmin-current.deb
 apt-get -y -f install;
